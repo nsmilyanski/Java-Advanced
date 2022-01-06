@@ -7,6 +7,8 @@ public class ReverseNumberswithaStack {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
+        int max = Integer.MAX_VALUE;
+
         ArrayDeque<String> stack = new ArrayDeque<>();
 
         String[] nums = scanner.nextLine().split(" ");
